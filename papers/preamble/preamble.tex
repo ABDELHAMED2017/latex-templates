@@ -4,12 +4,18 @@
 \usepackage{tgtermes}
 
 % NOTE: MUST INSTALL SEPARATELY
-\usepackage[subscriptcorrection,
-           amssymbols,
-           mtpbb,
-           mtpcal,
-           nofontinfo  % suppresses all warnings
-          ]{mtpro2}
+% NOTE: Here I use mtpro lite so I have replace the original with lite version
+%\usepackage[subscriptcorrection,
+%           amssymbols,
+%           mtpbb,
+%           mtpcal,
+%           nofontinfo  % suppresses all warnings
+%         ]{mtpro2}
+%remember to include asmath and lite for mtpro2 lite version, see details at 
+% https://github.com/jamespfennell/mathtime-installer
+\usepackage{amsmath}
+\usepackage[lite,subscriptcorrection,slantedGreek,nofontinfo,amsbb,eucal]{mtpro2}
+
 % NOTE: MUST UNCOMMENT IF NOT USING MTPRO2
 %\usepackage{amssymb}
 %\newcommand{\mathbold}[1]{\ensuremath{\boldsymbol{\mathbf{#1}}}}
