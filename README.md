@@ -16,8 +16,9 @@ In terms of packages:
 + I use MacTeX.
 + I use additional LaTeX packages listed
   [here](https://github.com/dustinvtran/dotfiles/tree/laptop-mac/Library/texmf/tex/latex).
-+ I use mtpro2 as a default font. It is proprietary and requires
-  manual installation.
++ <del>I use mtpro2 as a default font. It is proprietary and requires
+  manual installation. </del>
+  ***NOTE*** I use the lite version of mtpro2,so I have to revise the preamble/preamble.tex file as the instructions [here](https://github.com/jamespfennell/mathtime-installer)
 
 ## Curriculum Vitae
 <img src="img/cv.png" height="400">
